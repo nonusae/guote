@@ -1,4 +1,4 @@
-## Role: Main developer
+## Goute App
 
 App that display your inspirational quotes, Although this seem to be very simple.It is build with Rails React by combine with Rails 5.1 built-in webpacker. 
 
