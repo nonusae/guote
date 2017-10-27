@@ -1,24 +1,9 @@
-# README
+## Role: Main developer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App that display your inspirational quotes, Although this seem to be very simple.It is build with Rails React by combine with Rails 5.1 built-in webpacker. 
 
-Things you may want to cover:
 
-* Ruby version
+Our quotes will be stored in the production-ready database and served to the front end as JSONs over /api-namespaced endpoints. The whole routing, from the user’s point of view (each quote is going to have its unique shareable URL), will be implemented in React Router, so, basically, we will have two completely different sets of routes in our app. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+App demo : [here](https://goute.herokuapp.com/)
+App repo : [here](https://github.com/nonusae/guote)
