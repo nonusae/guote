@@ -10,7 +10,9 @@ const App = (props) => (
         <div>
             <Route
                 path="/"
-                component={QuotesDisplay}
+                startingQuoteId={props.startingQuoteId}
+                render={(routeProps) => <QuotesDisplay {...props} {...routeProps} 
+                />} 
             />
         </div>
     </Router>
